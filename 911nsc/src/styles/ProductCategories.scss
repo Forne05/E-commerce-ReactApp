@@ -1,0 +1,14 @@
+@import "colors";
+$a-tag-secondary-intro: "a, a:active, a:hover,a:visited,a:link";
+
+.products-category-container {
+  width: 94%;
+  margin: 20px auto;
+}
+
+.card-body-product-categories {
+  background-color: $whiteSmoke;
+  color: $themeColor;
+  text-align: center;
+  text-transform: uppercase;
+}

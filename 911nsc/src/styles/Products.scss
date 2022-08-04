@@ -1,0 +1,18 @@
+@import "colors";
+$a-tag-product: "a, a:active, a:hover,a:visited,a:link";
+.container-products {
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 5px;
+}
+
+.product-card-action-container {
+  background-color: $themeColor;
+  margin: 0 auto;
+  width: 90%;
+}
+.header-products {
+  text-align: center;
+  margin-bottom: 20px;
+  color: $colorGrey;
+}

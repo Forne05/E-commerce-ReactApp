@@ -1,0 +1,24 @@
+@import "colors";
+
+.top-banner-container {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: $themeColor;
+  text-align: center;
+}
+
+.top-banner-icon {
+  margin-right: 5px;
+}
+
+.shop_now_link_top_banner {
+  text-decoration: none;
+  color: $themeColor;
+  margin-left: 10px;
+  &:hover {
+    color: $white;
+    background-color: $themeColor;
+    text-decoration: none;
+    padding: 5px 5px;
+  }
+}
